@@ -14,6 +14,10 @@
 		FB1C80FF2CF4125F003209E4 /* Actividad13_Chavez_AntezanoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C80FE2CF4125F003209E4 /* Actividad13_Chavez_AntezanoTests.swift */; };
 		FB1C81092CF4125F003209E4 /* Actividad13_Chavez_AntezanoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C81082CF4125F003209E4 /* Actividad13_Chavez_AntezanoUITests.swift */; };
 		FB1C810B2CF4125F003209E4 /* Actividad13_Chavez_AntezanoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C810A2CF4125F003209E4 /* Actividad13_Chavez_AntezanoUITestsLaunchTests.swift */; };
+		FB1C81182CF4126D003209E4 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C81172CF4126D003209E4 /* Menu.swift */; };
+		FB1C811A2CF41278003209E4 /* CalculoCTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C81192CF41278003209E4 /* CalculoCTS.swift */; };
+		FB1C811C2CF41289003209E4 /* CalculoGRAT.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C811B2CF41289003209E4 /* CalculoGRAT.swift */; };
+		FB1C811E2CF41298003209E4 /* CalculoPAG.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C811D2CF41298003209E4 /* CalculoPAG.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		FB1C81042CF4125F003209E4 /* Actividad13_Chavez&AntezanoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Actividad13_Chavez&AntezanoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB1C81082CF4125F003209E4 /* Actividad13_Chavez_AntezanoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actividad13_Chavez_AntezanoUITests.swift; sourceTree = "<group>"; };
 		FB1C810A2CF4125F003209E4 /* Actividad13_Chavez_AntezanoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actividad13_Chavez_AntezanoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB1C81172CF4126D003209E4 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		FB1C81192CF41278003209E4 /* CalculoCTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculoCTS.swift; sourceTree = "<group>"; };
+		FB1C811B2CF41289003209E4 /* CalculoGRAT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculoGRAT.swift; sourceTree = "<group>"; };
+		FB1C811D2CF41298003209E4 /* CalculoPAG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculoPAG.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				FB1C80EF2CF4125C003209E4 /* ContentView.swift */,
 				FB1C80F12CF4125E003209E4 /* Assets.xcassets */,
 				FB1C80F32CF4125E003209E4 /* Preview Content */,
+				FB1C81172CF4126D003209E4 /* Menu.swift */,
+				FB1C81192CF41278003209E4 /* CalculoCTS.swift */,
+				FB1C811B2CF41289003209E4 /* CalculoGRAT.swift */,
+				FB1C811D2CF41298003209E4 /* CalculoPAG.swift */,
 			);
 			path = "Actividad13_Chavez&Antezano";
 			sourceTree = "<group>";
@@ -257,6 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB1C811E2CF41298003209E4 /* CalculoPAG.swift in Sources */,
+				FB1C811A2CF41278003209E4 /* CalculoCTS.swift in Sources */,
+				FB1C811C2CF41289003209E4 /* CalculoGRAT.swift in Sources */,
+				FB1C81182CF4126D003209E4 /* Menu.swift in Sources */,
 				FB1C80F02CF4125C003209E4 /* ContentView.swift in Sources */,
 				FB1C80EE2CF4125C003209E4 /* Actividad13_Chavez_AntezanoApp.swift in Sources */,
 			);
