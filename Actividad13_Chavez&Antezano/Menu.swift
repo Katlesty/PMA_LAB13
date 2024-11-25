@@ -9,7 +9,12 @@ import SwiftUI
 
 struct Menu: View {
     var body: some View {
-            NavigationView {
+        NavigationView {
+            ZStack {
+                // Fondo blanco detrás de TabView
+                Color.white
+                    .edgesIgnoringSafeArea(.all)
+                
                 TabView {
                     CalculoCTS()
                         .tabItem {
@@ -26,18 +31,20 @@ struct Menu: View {
                             Label("Pago a Instructores", systemImage: "person.2.circle")
                         }
                 }
-                .navigationTitle("CALCULADORA")
-                .navigationBarTitleDisplayMode(.inline)
-                .toolbarBackground(Color.cyan, for: .navigationBar)
-                .toolbarBackground(.visible, for: .navigationBar)
-                .toolbar {
-                                ToolbarItem(placement: .principal) {
-                                    Text("CALCULADORA")
-                                        .font(.headline)
-                                        .foregroundColor(.white)
-                                }
-                            }            }
+            }
+            .navigationTitle("CALCULADORA")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbarBackground(Color.cyan, for: .navigationBar)
+            .toolbarBackground(.visible, for: .navigationBar)
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Text("CALCULADORA")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                }
+            }
         }
+    }
 }
 
 #Preview {
